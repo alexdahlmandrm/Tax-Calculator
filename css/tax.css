@@ -1,0 +1,409 @@
+.c5{width:41.66%}
+.c7{width:58.33%}
+.camp-slider .bxslider .c7 {
+	height: 290px;
+	display: table;
+}
+.c5, .c7 {min-height:1px;float:left;padding-left:20px;padding-right:20px;position:relative}
+.section-big-image.tax-calc {
+	display: block;
+	min-height: 0;
+	height: auto;
+	padding: 40px 0;
+}
+.tax-calc .tc-table {
+	border-radius: 5px;
+	background: rgba(255,255,255,0.65);
+	border: 1px solid #fff;
+}
+.tax-calc .tc-table {
+        display: none;
+        float: left;
+        width: 100%;
+        padding-bottom: 10px;
+        position: relative;
+	color: #38383a;
+}
+.tax-calc .tc-table #help-close {
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+}
+.tax-calc .tc-table .tc-row {
+        padding: 20px;
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        line-height: 16px;
+}
+.tax-calc .tc-table .tc-row.tc-header {
+        border-bottom: 1px solid #fff;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 600;
+}
+.tax-calc .tc-table .tc-row.tc-content {
+        padding: 0 20px;
+}
+.tax-calc .tc-table .tc-cell {
+        float: left;
+        width: 33.33%;
+        padding: 10px 0;
+        border-top: 1px solid #fff;
+}
+.tax-calc .tc-table .tc-cell.nb {
+	border-top: none;
+}
+.donation-calculator input:focus,
+.donation-calculator button:focus {
+	outline:none;
+}
+.tax-calculator-main-wrap {
+	/* max-width: 410px;
+	margin-top: 40px;
+	margin-left: 150px; */
+	overflow: hidden;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.tax-calculator-main-wrap .after-calculator {
+	font-size: 16px;
+	text-align: center;
+	margin: 15px 0 0 0;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+.tax-calculator-wrap {
+	/* width: 100%; */
+	border-radius: 5px;
+	padding:0;
+	background:#262626;
+	overflow: hidden;
+}
+.tax-calculator-wrap h2 {
+	width:100%;
+	text-align: center;
+	color:#fff;
+	font-size:28px;
+	font-family: 'proxima-nova-n4', 'proxima-nova', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background: #8B2332;
+	border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: 0.05em;
+}
+.tax-calculator-wrap p {
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	padding: 0 20px;
+	margin: 20px 0 15px;
+	font-weight: 400;
+}
+.tax-calc-sub-wrap {
+	padding: 0 20px 20px;
+	width: 100%;
+	overflow: hidden;
+}
+.tax-calc-sub-wrap a.selected {
+	background:#007dae;
+	height:35px;
+	color:#fff;
+}
+.tax-calc-sub-wrap button {
+	height:36px;
+	color:#8B2332;
+	border:1px solid #8B2332;
+	border-radius:3px;
+	display:block;
+	text-align:center;
+	background:none;
+	width:47.5%;
+	float:left;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+}
+.tax-calc-sub-wrap button.active {
+	background:#8B2332;
+	color:#fff;
+}
+.tax-calc-sub-wrap button.first-button {
+	margin-right:5%;
+}
+.tax-calc-sub-wrap span.amount {
+	color:#fff;
+	text-align:center;
+	font-family: 'proxima-nova-n4', 'proxima-nova', sans-serif;
+	font-weight: 700;
+	font-size:16px;
+	margin-top:20px;
+	margin-bottom:10px;
+	display:block;
+	text-transform: uppercase;
+	float:left;
+	width:100%;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+}
+.tax-calc-sub-wrap #donation_amount {
+	width: calc(100% - 40px) !important;
+	/* max-width:318px !important; */
+	border-top-right-radius:5px;
+	height:50px;
+	padding:0;
+	color:#77787b;
+	font-weight: 400;
+}
+.tax-calc-sub-wrap .currency {
+	float:left;
+	font-size:36px;
+	width: 100%;
+	max-width:100%;
+	height: auto;
+}
+.tax-calc-sub-wrap .currency:before {
+	height:50px;
+	padding: 0;
+	font-size:36px;
+	line-height: 50px;
+	color:#77787b;
+	width: 40px !important;
+	border-bottom-left-radius:0;
+	font-weight: 400;
+}
+.tax-calc-sub-wrap .currency:after {
+	display:none;
+}
+.tax-calc-sub-wrap .result {
+	float: left;
+	clear: both;
+	background:#a3afb4;
+	width:88%;
+	text-align:center;
+	color:#fff;
+	font-size:18px;
+	line-height: 30px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.tax-credit {
+	/* margin-top:5px; */
+	width:100%;
+	padding:0 25px;
+	text-align:center;
+	/* overflow: hidden; */
+}
+.tax-credit span, #estimates{
+  color:#fff;
+}
+.page-template-template-tax-calculator-php .tax-credit{
+	background: #ffffff;
+	float:left;
+	position: relative;
+}
+.page-template-template-tax-calculator-php .tax-credit span {
+	color:#4d4d4f;
+	text-transform:uppercase;
+	font-size:16px;
+	line-height: 16px;
+	font-weight:700;
+	margin-top: 15px;
+	float:left;
+	width:100%;
+	letter-spacing: 0.05em;
+}
+.tax-credit #calculator_credit {
+	color:#007dae;
+	font-size:52px;
+	line-height: 52px;
+	height:auto;
+	font-weight: 400;
+	margin-top: 10px;
+	letter-spacing: 0;
+}
+.tax-credit #estimates {
+	opacity: 0.5;
+	font-weight: 600;
+	margin: 10px 0 15px;
+	text-transform: none;
+	letter-spacing: 0;
+}
+.tax-credit #help-open {
+	cursor: pointer;
+	position: absolute;
+	margin-top: -10px;
+	right: 40px;
+	top: 50%;
+}
+.tax-credit #calculator_credit:before {
+	content:"$";
+}
+.tax-calculator-wrap .give-now {
+	height: 54px;
+}
+.tax-calculator-wrap .give-now input {
+	padding: 0;
+	line-height: 54px;
+}
+.tax-calculator-main-wrap .tc-secure {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 15px 0 0;
+	color: #fff;
+	font-size: 16px;
+	line-height: 16px;
+	opacity: 0.5;
+}
+.tax-calculator-main-wrap .tc-secure img {
+	display: inline;
+	margin-right: 5px;
+	height: 12px;
+}
+#tc-more-info {
+	font-size: 20px;
+	line-height: 20px;
+	color: #007dae;
+	margin: 30px 0;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 0 20px;
+}
+#tc-more-info span {
+	width: 13px;
+	height: 8px;
+	display: inline-block;
+	vertical-align: middle;
+	/*background: url(ht);*/
+}
+#tc-more-info span.arrow-up {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.page-template-template-tax-calculator .main-content {
+	padding-bottom: 50px;
+}
+.page-template-template-tax-calculator .main-content .highlight {
+	background: #f8f8f8;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.page-template-template-tax-calculator .main-content .highlight p {
+	margin: 0;
+}
+
+@media all and (max-width: 768px) {
+	.section-big-image.tax-calc {
+		background: rgba(0,125,174,0.8) !important;
+		padding: 40px 0 0;
+	}
+	.tax-calculator-main-wrap .c5,
+	.tax-calculator-main-wrap .c7 {
+		margin-bottom: 0;
+	}
+	.tax-calculator-wrap .give-now {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+	.tax-calc-sub-wrap button {
+		letter-spacing: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.tax-credit #help-open {
+		right: 20px;
+	}
+	.tax-calculator-main-wrap .tc-secure {
+		margin-bottom: 20px;
+	}
+}
+.c6.button-wrap {
+	padding:0 5px;
+}
+.give-now {
+	float:left;
+	width:100%;
+	text-align:center;
+	background:#8B2332;
+  	height:65px;
+  color:#fff;
+}
+
+give-now-btn {
+  color:#fff;
+}
+.give-now input {
+	background:none;
+	border:none;
+	line-height:65px;
+	color:#ffffff;
+	font-size:28px;
+	width:100%;
+	display:block;
+}
+.contributions-btn {
+	font-family: 'proxima-nova-n4', 'proxima-nova', sans-serif;
+	font-weight: 700;
+	text-align:center;
+	width: 100%;
+	display: block;
+	margin: 35px 0;
+	position:relative;
+}
+.contributions-btn:after {
+	content:"";
+	position:absolute;
+	width:12px;
+	height:8px;
+	background:url('images/arrow-down-tax.png');
+	top:50%;
+	margin-top:-4px;
+	margin-left:10px;
+}
+.contributions-btn:before {
+	content:"";
+	position:absolute;
+	width:12px;
+	height:8px;
+	background:url('images/arrow-down-tax.png');
+	top:50%;
+	margin-top:-4px;
+	margin-left:-22px;
+}
+.mobile-tax-image {
+	display:none;
+	margin-top:-80px;
+}
+#contri {
+	display:none;
+}
+body {
+	background: url('images/bgtax.png');
+}
+body header, body #main {
+	background: #fff;
+}
+.tax-content {
+	 margin-top:35px; 
+}
+.tax-content li {
+	margin-bottom: 1em;
+}
+.after-calculator a {
+	color:white;
+}
+.after-calculator a:hover {
+	text-decoration: underline;
+}
